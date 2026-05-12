@@ -1,0 +1,11 @@
+[
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 1,
+        "red": 1,
+        "acceso_admin": true,
+        "utiliza_contrasenas": true
+    }
+]

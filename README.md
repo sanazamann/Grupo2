@@ -5,4 +5,3 @@ Integrantes:
 -Sanaz Amanmohammadi
 -Maria Fernanda Pérez
 -Juan Diego Soto
--Leoncio Mbomio

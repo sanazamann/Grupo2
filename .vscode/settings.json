@@ -1,0 +1,16 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/controllers",
+        "./src",
+        "./src/clases",
+        "./src/utils",
+        "./src/clases",
+        "./src/clases",
+        "./src",
+        "./src/clases",
+        "./src",
+        "./src",
+        "./src"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
+}

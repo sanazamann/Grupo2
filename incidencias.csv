@@ -1,0 +1,2 @@
+tipo,nivel_riesgo,recomendacion,intentos,red,acceso_admin,utiliza_contrasenas
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",1,1,True,True

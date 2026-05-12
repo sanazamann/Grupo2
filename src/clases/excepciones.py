@@ -1,0 +1,2 @@
+class ErrorIncidencia(Exception):
+    pass
