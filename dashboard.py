@@ -1,8 +1,7 @@
-import streamlit as st # type: ignore
+import streamlit as st
 import pandas as pd
 
 from GestorIncidencias import GestorIncidencias
-
 from Phishing import Phishing 
 from malware import Malware
 from ataque_fuerza_bruta import AtaqueFuerzaBruta
