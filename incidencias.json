@@ -1,11 +1,198 @@
 [
     {
         "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Bajo",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 2,
+        "red": 3,
+        "acceso_admin": false,
+        "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
         "nivel_riesgo": "Crítico",
         "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
-        "intentos": 1,
+        "intentos": 2,
+        "red": 3,
+        "acceso_admin": true,
+        "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electrónico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electrónico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electronico",
+        "enlace_sospechoso": false,
+        "remitente_desconocido": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electronico",
+        "enlace_sospechoso": false,
+        "remitente_desconocido": true
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": true,
+        "propagacion": true,
+        "sigilo": false,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Fuga de datos",
+        "nivel_riesgo": "Bajo",
+        "recomendacion": "Notificar la fuga, cambiar credenciales y revisar permisos",
+        "datos_afectados": "Correos y contrasenas",
+        "numero_registros": 2,
+        "origen_fuga": "Servidor externo"
+    },
+    {
+        "tipo": "Acceso no autorizado",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Revocar permisos, revisar logs y cambiar la contraseña",
+        "usuario_afectado": "admin01",
+        "sistema_afectado": "Panel interno",
+        "privilegios_admin": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electronico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": false
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electronico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": false
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 0,
+        "red": 0,
+        "acceso_admin": true,
+        "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 2,
         "red": 1,
         "acceso_admin": true,
         "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Fuga de datos",
+        "nivel_riesgo": "Bajo",
+        "recomendacion": "Notificar la fuga, cambiar credenciales y revisar permisos",
+        "datos_afectados": "Correos y contrasenas",
+        "numero_registros": 3,
+        "origen_fuga": "Servidor externo"
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": false,
+        "propagacion": true,
+        "sigilo": false,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": true,
+        "propagacion": true,
+        "sigilo": false,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electrónico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": false
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": true,
+        "propagacion": false,
+        "sigilo": false,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": true,
+        "propagacion": false,
+        "sigilo": true,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Malware",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",
+        "persistencia": true,
+        "propagacion": true,
+        "sigilo": true,
+        "payload": "Robo de credenciales"
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 1,
+        "red": 2,
+        "acceso_admin": true,
+        "utiliza_contrasenas": false
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Bajo",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 1,
+        "red": 2,
+        "acceso_admin": false,
+        "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Phishing",
+        "nivel_riesgo": "Medio",
+        "recomendacion": "No abrir enlaces sospechosos y comprobar siempre el remitente",
+        "canal": "Correo electronico",
+        "enlace_sospechoso": true,
+        "remitente_desconocido": false
     }
 ]
