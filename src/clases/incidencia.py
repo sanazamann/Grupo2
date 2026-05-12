@@ -1,6 +1,7 @@
 from src.clases.interfaces import Recomendaciones
 from src.clases.excepciones import ErrorIncidencia
 
+
 class Incidencia(Recomendaciones):
 
     def __init__(self, tipo):

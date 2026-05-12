@@ -4,7 +4,6 @@ from src.clases.incidencia import Incidencia
 from src.clases.excepciones import ErrorIncidencia
 from src.utils import persistence
 
-
 class GestorIncidencias:
 
     def __init__(self, nombre):

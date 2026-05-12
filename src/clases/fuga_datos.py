@@ -1,7 +1,6 @@
 from src.clases.incidencia import Incidencia
 from src.clases.excepciones import ErrorIncidencia
 
-
 class FugaDatos(Incidencia):
 
     def __init__(self, datos_afectados, numero_registros, origen_fuga):

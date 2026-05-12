@@ -1,2 +1,3 @@
+
 class ErrorIncidencia(Exception):
     pass

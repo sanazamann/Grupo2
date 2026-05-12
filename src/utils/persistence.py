@@ -1,6 +1,5 @@
 import json
 
-
 def guardar_json(datos, archivo):
 
     with open(archivo, "w", encoding="utf-8") as f:

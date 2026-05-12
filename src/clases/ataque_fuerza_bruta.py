@@ -1,6 +1,7 @@
 from src.clases.incidencia import Incidencia
 from src.clases.excepciones import ErrorIncidencia
 
+
 class AtaqueFuerzaBruta(Incidencia):
 
     def __init__(self, intentos, red, acceso_admin, utiliza_contrasenas):

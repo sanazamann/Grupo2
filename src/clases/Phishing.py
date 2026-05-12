@@ -1,7 +1,6 @@
 from src.clases.incidencia import Incidencia
 from src.clases.excepciones import ErrorIncidencia
 
-
 class Phishing(Incidencia):
 
     def __init__(self, canal, enlace_sospechoso, remitente_desconocido):

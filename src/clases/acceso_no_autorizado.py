@@ -1,6 +1,7 @@
 from src.clases.incidencia import Incidencia
 from src.clases.excepciones import ErrorIncidencia
 
+
 class AccesoNoAutorizado(Incidencia):
 
     def __init__(self, usuario_afectado, sistema_afectado, privilegios_admin):
