@@ -1,8 +1,8 @@
 import pandas as pd
 
-from incidencia import Incidencia
-from excepciones import ErrorIncidencia
-import persistence
+from src.clases.incidencia import Incidencia
+from src.clases.excepciones import ErrorIncidencia
+from src.utils import persistence
 
 
 class GestorIncidencias:

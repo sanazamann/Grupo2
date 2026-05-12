@@ -1,5 +1,3 @@
-#interfaz
-
 from abc import ABC, abstractmethod
 
 

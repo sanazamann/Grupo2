@@ -1,6 +1,5 @@
-from interfaces import Recomendaciones
-from excepciones import ErrorIncidencia
-
+from src.clases.interfaces import Recomendaciones
+from src.clases.excepciones import ErrorIncidencia
 
 class Incidencia(Recomendaciones):
 

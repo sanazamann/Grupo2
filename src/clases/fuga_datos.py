@@ -1,5 +1,5 @@
-from incidencia import Incidencia
-from excepciones import ErrorIncidencia
+from src.clases.incidencia import Incidencia
+from src.clases.excepciones import ErrorIncidencia
 
 
 class FugaDatos(Incidencia):

@@ -1,14 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-from GestorIncidencias import GestorIncidencias
-from Phishing import Phishing 
-from malware import Malware
-from ataque_fuerza_bruta import AtaqueFuerzaBruta
-from fuga_datos import FugaDatos
-from acceso_no_autorizado import AccesoNoAutorizado
-from excepciones import ErrorIncidencia
-
+from src.controllers.GestorIncidencias import GestorIncidencias
+from src.clases.Phishing import Phishing
+from src.clases.malware import Malware
+from src.clases.ataque_fuerza_bruta import AtaqueFuerzaBruta
+from src.clases.fuga_datos import FugaDatos
+from src.clases.acceso_no_autorizado import AccesoNoAutorizado
+from src.clases.excepciones import ErrorIncidencia
 
 def iniciar_dashboard():
 
@@ -222,7 +221,7 @@ def iniciar_dashboard():
 
         st.header("Guardar y cargar datos")
 
-        col3, col4, col5 = st.columns(3)
+        col3, col4 = st.columns(2)
 
         with col3:
             if st.button("Guardar JSON"):
@@ -233,8 +232,3 @@ def iniciar_dashboard():
             if st.button("Guardar CSV"):
                 gestor.guardar_en_csv("incidencias.csv")
                 st.success("Datos guardados en incidencias.csv")
-
-        with col5:
-            if st.button("Cargar JSON"):
-                datos = gestor.cargar_desde_json("incidencias.json")
-                st.write(datos)
