@@ -194,5 +194,38 @@
         "canal": "Correo electronico",
         "enlace_sospechoso": true,
         "remitente_desconocido": false
+    },
+    {
+        "tipo": "Acceso no autorizado",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Revocar permisos, revisar logs y cambiar la contraseña",
+        "usuario_afectado": "admin01",
+        "sistema_afectado": "Panel interno",
+        "privilegios_admin": true
+    },
+    {
+        "tipo": "Ataque de fuerza bruta",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Bloquear la IP, limitar intentos y activar doble autenticación",
+        "intentos": 4,
+        "red": 3,
+        "acceso_admin": true,
+        "utiliza_contrasenas": true
+    },
+    {
+        "tipo": "Acceso no autorizado",
+        "nivel_riesgo": "Alto",
+        "recomendacion": "Revocar permisos, revisar logs y cambiar la contraseña",
+        "usuario_afectado": "admin01",
+        "sistema_afectado": "Panel interno",
+        "privilegios_admin": false
+    },
+    {
+        "tipo": "Acceso no autorizado",
+        "nivel_riesgo": "Crítico",
+        "recomendacion": "Revocar permisos, revisar logs y cambiar la contraseña",
+        "usuario_afectado": "admin01",
+        "sistema_afectado": "Panel interno",
+        "privilegios_admin": true
     }
 ]
