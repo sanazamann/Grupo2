@@ -1,2 +1,29 @@
-tipo,nivel_riesgo,recomendacion,intentos,red,acceso_admin,utiliza_contrasenas
-Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",1,1,True,True
+tipo,nivel_riesgo,recomendacion,intentos,red,acceso_admin,utiliza_contrasenas,canal,enlace_sospechoso,remitente_desconocido,persistencia,propagacion,sigilo,payload,datos_afectados,numero_registros,origen_fuga,usuario_afectado,sistema_afectado,privilegios_admin
+Ataque de fuerza bruta,Bajo,"Bloquear la IP, limitar intentos y activar doble autenticación",2.0,3.0,False,True,,,,,,,,,,,,,
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",2.0,3.0,True,True,,,,,,,,,,,,,
+Phishing,Alto,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electrónico,True,True,,,,,,,,,,
+Phishing,Alto,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electrónico,True,True,,,,,,,,,,
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electronico,False,True,,,,,,,,,,
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electronico,False,True,,,,,,,,,,
+Malware,Alto,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,True,True,False,Robo de credenciales,,,,,,
+Fuga de datos,Bajo,"Notificar la fuga, cambiar credenciales y revisar permisos",,,,,,,,,,,,Correos y contrasenas,2.0,Servidor externo,,,
+Acceso no autorizado,Crítico,"Revocar permisos, revisar logs y cambiar la contraseña",,,,,,,,,,,,,,,admin01,Panel interno,True
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electronico,True,False,,,,,,,,,,
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electronico,True,False,,,,,,,,,,
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",0.0,0.0,True,True,,,,,,,,,,,,,
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",2.0,1.0,True,True,,,,,,,,,,,,,
+Fuga de datos,Bajo,"Notificar la fuga, cambiar credenciales y revisar permisos",,,,,,,,,,,,Correos y contrasenas,3.0,Servidor externo,,,
+Malware,Medio,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,False,True,False,Robo de credenciales,,,,,,
+Malware,Alto,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,True,True,False,Robo de credenciales,,,,,,
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electrónico,True,False,,,,,,,,,,
+Malware,Medio,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,True,False,False,Robo de credenciales,,,,,,
+Malware,Alto,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,True,False,True,Robo de credenciales,,,,,,
+Malware,Crítico,"Aislar el equipo, ejecutar antivirus y eliminar archivos maliciosos",,,,,,,,True,True,True,Robo de credenciales,,,,,,
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",1.0,2.0,True,False,,,,,,,,,,,,,
+Ataque de fuerza bruta,Bajo,"Bloquear la IP, limitar intentos y activar doble autenticación",1.0,2.0,False,True,,,,,,,,,,,,,
+Phishing,Medio,No abrir enlaces sospechosos y comprobar siempre el remitente,,,,,Correo electronico,True,False,,,,,,,,,,
+Acceso no autorizado,Crítico,"Revocar permisos, revisar logs y cambiar la contraseña",,,,,,,,,,,,,,,admin01,Panel interno,True
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",4.0,3.0,True,True,,,,,,,,,,,,,
+Acceso no autorizado,Alto,"Revocar permisos, revisar logs y cambiar la contraseña",,,,,,,,,,,,,,,admin01,Panel interno,False
+Acceso no autorizado,Crítico,"Revocar permisos, revisar logs y cambiar la contraseña",,,,,,,,,,,,,,,admin01,Panel interno,True
+Ataque de fuerza bruta,Crítico,"Bloquear la IP, limitar intentos y activar doble autenticación",1.0,2.0,True,False,,,,,,,,,,,,,
